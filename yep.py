@@ -1,9 +1,7 @@
-import sys
 x=""
-y="\b"*16
-print((x+'x=""'))
-x="print(("
-print((x+'''x+'x=""'))\nx="print(("\n''')*2,end="")
-sys.stdout.write("\033[F") #back to previous line 
-sys.stdout.write("\033[K")
-x="print("
+y="abc" #replace abc with everything after Line 6 Column 31
+z=""
+z+=(x+'x="";')
+x="z+=(x+'''"
+z+=(x+'''x+'x="";'));x="z+=(";''')*2
+print(z)
