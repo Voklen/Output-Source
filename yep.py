@@ -1,7 +1,3 @@
-x=""
-y="abc" #replace abc with everything after Line 6 Column 31
-z=""
-z+=(x+'x="";')
-x="z+=(x+'''"
-z+=(x+'''x+'x="";'));x="z+=(";''')*2
-print(z)
+x="";y="'"*3+")*2;print(z)";z="";a="";
+z+=(x+"""x="";y="'"*3+")*2;print(z)";z="";""");x="magic"*3;
+z+=x+("z+=(x+"+"'"*3+'''z+=(x+"""x="";y="'"*3+")*2;print(z)";z="";""");x="z+=(x+"+"'"*3;''')*2;z+=y;print(z)
